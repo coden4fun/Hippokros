@@ -5,7 +5,7 @@ VisualStudioVersion = 12.0.21005.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hippokros", "Hippokros\Hippokros.csproj", "{4A44A260-84CD-4D5E-BF9A-48D9845628E0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RadSchedule", "..\..\..\Visual Studio 2013\Projects\RadSchedule\RadSchedule\RadSchedule.csproj", "{E8C8B68B-4D45-4A97-9514-BF25B6C203BF}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RadSchedule", "RadScheduler\RadSchedule.csproj", "{E8C8B68B-4D45-4A97-9514-BF25B6C203BF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
