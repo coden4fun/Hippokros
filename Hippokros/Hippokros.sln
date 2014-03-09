@@ -7,6 +7,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hippokros", "Hippokros\Hipp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RadSchedule", "RadScheduler\RadSchedule.csproj", "{E8C8B68B-4D45-4A97-9514-BF25B6C203BF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DialysisPortal", "DialysisPortal\DialysisPortal.csproj", "{9622EDB0-536E-4A0B-9E37-CC7E89F97657}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hippokros.Domain", "Domain\Hippokros.Domain.csproj", "{8B3C0574-203A-495B-B5B5-6BB429C68088}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +25,14 @@ Global
 		{E8C8B68B-4D45-4A97-9514-BF25B6C203BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E8C8B68B-4D45-4A97-9514-BF25B6C203BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E8C8B68B-4D45-4A97-9514-BF25B6C203BF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9622EDB0-536E-4A0B-9E37-CC7E89F97657}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9622EDB0-536E-4A0B-9E37-CC7E89F97657}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9622EDB0-536E-4A0B-9E37-CC7E89F97657}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9622EDB0-536E-4A0B-9E37-CC7E89F97657}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8B3C0574-203A-495B-B5B5-6BB429C68088}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8B3C0574-203A-495B-B5B5-6BB429C68088}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8B3C0574-203A-495B-B5B5-6BB429C68088}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8B3C0574-203A-495B-B5B5-6BB429C68088}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

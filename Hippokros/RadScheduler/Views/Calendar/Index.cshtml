@@ -1,28 +1,26 @@
-﻿
+﻿@model System.Collections.Generic.List<RadSchedule.Models.Projection>
 @{
     ViewBag.Title = "Index";
  }
 @section scripts{
-    <script>
-    $("#scheduler").kendoScheduler({
-        date: new Date("2013/6/6"), // The current date of the scheduler
-        dataSource: [ // The kendo.data.SchedulerDataSource configuration
-          // First scheduler event
-          {
-              id: 1, // Unique identifier. Needed for editing.
-              start: new Date("2013/6/6 08:00 AM"), // Start of the event
-              end: new Date("2013/6/6 09:00 AM"), // End of the event
-              title: "Breakfast" // Title of the event
-          },
-          // Second scheduler event
-          {
-              id: 2,
-              start: new Date("2013/6/6 10:15 AM"),
-              end: new Date("2013/6/6 12:30 PM"),
-              title: "Job Interview"
-          }
-        ]
-    });
-</script>
+  <script>
+      function scheduler_dataBound(e) {
+          //handle databounde event
+      }
+
+      function scheduler_dataBinding(e) {
+          //handle the databinding event
+      }
+    </script>
 }
-<div id="scheduler"></div>
+@(Html.Kendo().Scheduler<RadSchedule.Models.Projection>().Name("scheduler").Date(new DateTime(2013, 6, 13)).StartTime(new DateTime(2013, 6, 13, 10, 00, 00))
+        .EndTime(new DateTime(2013, 6, 13, 23, 00, 00))
+        .Editable(false)
+        .Height(600)
+        .BindTo(Model)
+        .Events(e =>
+        {
+            e.DataBound("scheduler_dataBound");
+            e.DataBinding("scheduler_dataBinding");
+        })
+)
